@@ -1,9 +1,9 @@
-module ca.assignment1.assignment1 {
+module com.student.student {
     requires javafx.controls;
     requires javafx.fxml;
 
     requires org.controlsfx.controls;
 
-    opens ca.assignment1.assignment1 to javafx.fxml;
-    exports ca.assignment1.assignment1;
+    opens com.student.student to javafx.fxml;
+    exports com.student.student;
 }
